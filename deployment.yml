@@ -15,6 +15,7 @@ spec:
       containers:
       - name: helloworld
         image: karthequian/helloworld:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---
